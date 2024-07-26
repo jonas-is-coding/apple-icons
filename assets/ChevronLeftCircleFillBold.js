@@ -1,0 +1,15 @@
+import * as React from "react";
+const SvgChevronleftcirclefillBold = ({ title, titleId, ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 100 100"
+    width="1em"
+    height="1em"
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <path d="M12.372 24.746c6.83 0 12.38-5.54 12.38-12.37s-5.55-12.38-12.38-12.38S.002 5.546.002 12.376s5.54 12.37 12.37 12.37m2.46-6.43c-.42.41-1.27.4-1.72-.02l-4.76-4.46c-.82-.77-.82-2.12 0-2.89l4.76-4.45c.49-.47 1.23-.46 1.69-.04.51.47.51 1.29.03 1.75l-4.47 4.18 4.47 4.18c.47.46.51 1.25 0 1.75" />
+  </svg>
+);
+export default SvgChevronleftcirclefillBold;

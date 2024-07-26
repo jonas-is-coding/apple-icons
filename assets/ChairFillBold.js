@@ -1,0 +1,15 @@
+import * as React from "react";
+const SvgChairfillBold = ({ title, titleId, ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 100 100"
+    width="1em"
+    height="1em"
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <path d="M2.782 26.483h.28c.74 0 1.25-.51 1.25-1.26v-3.71h9.63v3.71c0 .75.52 1.26 1.26 1.26h.27c.75 0 1.26-.51 1.26-1.26v-7.05c1.03-.18 1.53-.86 1.53-2.07v-2.11c0-1.44-.71-2.12-2.2-2.12h-1.65v-2.56h.39c1.52 0 2.25-.7 2.25-2.19v-4.94c0-1.49-.73-2.18-2.25-2.18H3.462c-1.52 0-2.25.69-2.25 2.18v4.94c0 1.49.73 2.19 2.25 2.19h.38v2.56h-1.64c-1.49 0-2.2.68-2.2 2.12v2.11c0 1.21.5 1.89 1.52 2.07v7.05c0 .75.52 1.26 1.26 1.26m3.63-14.61v-2.56h5.44v2.56Zm-2.1 7.37v-1.01h9.63v1.01Z" />
+  </svg>
+);
+export default SvgChairfillBold;

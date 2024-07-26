@@ -1,0 +1,15 @@
+import * as React from "react";
+const SvgDieface3FillBold = ({ title, titleId, ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 100 100"
+    width="1em"
+    height="1em"
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <path d="M4.142 22.404h14.13c2.68 0 4.13-1.45 4.13-4.1V4.114c0-2.65-1.45-4.11-4.13-4.11H4.142c-2.68 0-4.14 1.45-4.14 4.11v14.19c0 2.65 1.46 4.1 4.14 4.1m12.15-14.29c-1.1-.02-2.01-.88-2.01-1.99 0-1.09.91-1.96 2.01-1.96 1.08 0 1.97.87 1.97 1.96 0 1.12-.91 2.02-1.97 1.99m-5.08 5.08a1.974 1.974 0 1 1 0-3.95c1.07 0 1.97.88 1.97 1.96 0 1.1-.89 1.99-1.97 1.99m-5.08 5.09c-1.09 0-1.97-.89-1.97-2 0-1.07.88-1.95 1.97-1.95 1.08 0 1.97.88 1.97 1.95 0 1.11-.88 2-1.97 2" />
+  </svg>
+);
+export default SvgDieface3FillBold;
