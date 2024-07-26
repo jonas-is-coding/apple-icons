@@ -1,0 +1,18 @@
+{
+  "name": "apple-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generateSymbols": "node ./scripts/generateSymbols.js",
+    "generateTypes": "node ./scripts/generateTypes.js",
+    "generateJSON": "npm run generateSymbols && npm run generateTypes",
+    "generateIcons": "node ./scripts/generateIcons.js"
+  },
+  "devDependencies": {
+    "opentype.js": "^1.3.4",
+    "svg-path-commander": "^1.0.4"
+  },
+  "author": "Jonas Brahmst",
+  "license": "MIT"
+}
