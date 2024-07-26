@@ -97,6 +97,10 @@ Beiträge sind willkommen! Wenn du Vorschläge zur Verbesserung hast oder neue I
 
 Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die [LICENSE](/LICENSE.md) Datei für Details.
 
+## Package Status
+
+[![npm version](https://badge.fury.io/js/apple-icons.svg)](https://www.npmjs.com/package/apple-icons)
+
 ## Kontakt
 
 Wenn du Fragen hast, kannst du mich über [GitHub](https://github.com/jonas-is-coding) kontaktieren.
