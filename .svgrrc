@@ -4,5 +4,8 @@
   "titleProp": true,
   "replaceAttrValues": {
     "#1D1D1D": "currentColor"
+  },
+  "svgProps": {
+    "fill": "currentColor"
   }
 }

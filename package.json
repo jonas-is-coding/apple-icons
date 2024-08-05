@@ -1,7 +1,7 @@
 {
   "name": "apple-icons",
-  "version": "6.0.0",
-  "description": "",
+  "version": "6.0.1",
+  "description": "A collection of high-quality, customisable SVG icons packaged in React components.",
   "module": "./dist/index.esm.js",
   "type": "module",
   "files": [
@@ -10,7 +10,7 @@
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --expand-props end --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d assets -- icons"
+    "svgr": "svgr --config-file ./.svgrrc -d assets -- icons"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.24.7",
